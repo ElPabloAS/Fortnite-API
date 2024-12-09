@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Noticias Fortnite</title>
+        <title>Api Fortnite</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -17,16 +17,20 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="css/css.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Luckiest+Guy&display=swap');
             </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+        
     </head>
 
     <body>
+        <a name="top"></a>
         <header>
+           
+
+
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container">
                     <!-- Logo -->
@@ -57,57 +61,69 @@
                     </div>
                 </div>
             </nav>
+
+
+            
         </header>
-        <main class="container mt-5">
-           <div class="container col-5">
-            <div class="card w-100 mb-5">
-                <img src="" class="card-img-top w-100" alt="Noticia Imagen">
-                <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text"></p>
-                    <a href="noticias.html" class="btn btn-primary">Volver</a>
+        
+        <main>
+            <section class="container my-5">
+                <h1 class="text-center mb-4">Cosméticos Favoritos</h1>
+            
+             
+                
+            
+                <!-- Contenedor de cosméticos -->
+                <div class="row gy-4" id="container-cosmetics">
+                    <!-- Las tarjetas se insertarán aquí -->
                 </div>
-            </div>
-           </div>
+            </section>
+    
+         
         </main>
-            <footer class="bg-dark text-light py-4">
-                <div class="container">
-                    <div class="row text-center text-md-start">
-                        <!-- Enlaces rápidos -->
-                        <div class="col-12 col-md-4 mb-3">
-                            <h5 class="luckiest-guy-regular">Enlaces Rápidos</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="home.html" class="text-decoration-none text-light">Inicio</a></li>
-                                <li><a href="noticias.html" class="text-decoration-none text-light">Noticias</a></li>
-                                <li><a href="tienda.html" class="text-decoration-none text-light">Tienda</a></li>
-                                <li><a href="favoritos.html" class="text-decoration-none text-light" >Favoritos</a></li>
-                            </ul>
-                        </div>
-                        <!-- Redes sociales -->
-                        <div class="col-12 col-md-4 mb-3 text-center">
-                            <h5 class="luckiest-guy-regular">Síguenos</h5>
-                            <div>
-                                <a href="https://www.facebook.com/epicgames" class="text-light me-3">
-                                    <i class="fa fa-facebook" style="font-size: 1.5rem;"></i>
-                                </a>
-                                <a href="https://x.com/epicgames" class="text-light me-3">
-                                    <i class="fa fa-twitter" style="font-size: 1.5rem;"></i>
-                                </a>
-                                <a href="https://www.youtube.com/epicgamesinc" class="text-light">
-                                    <i class="fa fa-youtube" style="font-size: 1.5rem;"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Aviso legal -->
-                        <div class="col-12 col-md-4 text-center text-md-end">
-                            <h5 class="luckiest-guy-regular">Aviso Legal</h5>
-                            <p class="mb-0">© 2024 Fortnite Store. Todos los derechos reservados.</p>
-                            <p class="mb-0">Este sitio no está afiliado con Epic Games.</p>
+
+        <footer class="bg-dark text-light py-4">
+            <div class="container">
+                <div class="row text-center text-md-start">
+                    <!-- Enlaces rápidos -->
+                    <div class="col-12 col-md-4 mb-3">
+                        <h5 class="luckiest-guy-regular">Enlaces Rápidos</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="home.html" class="text-decoration-none text-light">Inicio</a></li>
+                            <li><a href="noticias.html" class="text-decoration-none text-light">Noticias</a></li>
+                            <li><a href="tienda.html" class="text-decoration-none text-light">Tienda</a></li>
+                            <li><a href="tienda.html" class="text-decoration-none text-light">Favoritos</a></li>
+                        </ul>
+                    </div>
+                    <!-- Redes sociales -->
+                    <div class="col-12 col-md-4 mb-3 text-center">
+                        <h5 class="luckiest-guy-regular">Síguenos</h5>
+                        <div>
+                            <a href="https://www.facebook.com/epicgames" class="text-light me-3">
+                                <i class="fa fa-facebook" style="font-size: 1.5rem;"></i>
+                            </a>
+                            <a href="https://x.com/epicgames" class="text-light me-3">
+                                <i class="fa fa-twitter" style="font-size: 1.5rem;"></i>
+                            </a>
+                            <a href="https://www.youtube.com/epicgamesinc" class="text-light">
+                                <i class="fa fa-youtube" style="font-size: 1.5rem;"></i>
+                            </a>
                         </div>
                     </div>
+                    <!-- Aviso legal -->
+                    <div class="col-12 col-md-4 text-center text-md-end">
+                        <h5 class="luckiest-guy-regular">Aviso Legal</h5>
+                        <p class="mb-0">© 2024 Fortnite Store. Todos los derechos reservados.</p>
+                        <p class="mb-0">Este sitio no está afiliado con Epic Games.</p>
+                    </div>
                 </div>
-            </footer>
-            
+            </div>
+            <a href="#top"><i class="fa fa-arrow-up fa-2x position-fixed end-0 bottom-0 me-3 mb-3"
+                style="color: #ff0000" aria-hidden="true"></i></a>
+        </footer>
+        
+      
+        
         <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -120,6 +136,7 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
-        <script src="./js/noticias1.js"></script>
+        <script type="module" src="/js/cosmeticosFav.js" ></script>
+        
     </body>
 </html>
